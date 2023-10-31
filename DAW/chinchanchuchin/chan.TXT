@@ -1,0 +1,7 @@
+.elemento-movil {
+    width: 100px; /* Ajusta el ancho de tu elemento PNG */
+    height: 100px; /* Ajusta el alto de tu elemento PNG */
+    background: url('https://files.cults3d.com/uploaders/24904862/illustration-file/46df3811-efcc-4dec-97dc-287acba2b4f3/Captura-de-pantalla-2023-05-06-195306.png') no-repeat;
+    background-size: contain;
+    position: absolute;
+}

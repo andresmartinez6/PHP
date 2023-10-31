@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.elemento-movil {
+    width: 100px; /* Ajusta el ancho de tu elemento PNG */
+    height: 100px; /* Ajusta el alto de tu elemento PNG */
+    background: url('tu-elemento.png') no-repeat;
+    background-size: contain;
+    position: absolute;
+}
