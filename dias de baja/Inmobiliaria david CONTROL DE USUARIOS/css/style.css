@@ -1,0 +1,490 @@
+
+/* HEADER */
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+th{
+    background-color: #FF6000;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+td{
+    font-size: 1.2rem;
+    padding:1rem;
+}
+a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #FF6000;
+}
+
+header div.fin {
+    height: 40px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.fin p {
+    width: 40%;
+    text-align: center;
+}
+
+header div.fin p a {
+    color: #FF6000;
+}
+
+header div.datos {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+header div.datos div {
+    display: flex;
+}
+
+header div.datos a {
+    margin-right: 1rem;
+}
+
+header div.datos div img {
+    width: 18px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+header div.datos div img:first-child {
+    width: 35px;
+}
+
+header div.buscador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+header div.buscador div.logo {
+    width: 25%;
+    text-align: left;
+}
+
+header div.buscador div.logo a img {
+    width: 40%;
+    border-radius: 50px;
+}
+
+header div.buscador div.bus {
+    background-color: #EAEAEA;
+    border-radius: 20px;
+    height: 3.1rem;
+    display: flex;
+    align-items: center;
+}
+
+header div.buscador div.bus img {
+    width: 7%;
+    padding: 1rem;
+}
+
+header div.buscador div.contacto {
+    width: 20%;
+    text-align: right;
+}
+
+header div.buscador div.contacto img {
+    width: 10%;
+    padding: 1rem;
+}
+
+nav {
+    background-color: #EAEAEA;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin:auto;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    font-weight: bolder;
+
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    text-shadow: 1px 1px 5px #FF6000;
+}
+
+h2 {
+    text-align: center;
+    margin:2rem 0;
+    font-size: 35px;
+}
+
+h2::after {
+    content: '';
+    color: #FF6000;
+    display: block;
+    border: solid 2px;
+    width: 5%;
+    margin: auto;
+}
+
+/* main */
+
+
+ form{
+    text-align: center;
+    margin:2rem 0;
+}
+ form input{
+    padding:0.6rem 0;
+    text-align: center;
+    width:23%;
+    margin:0.4rem;
+}
+form input[type='submit']{
+    width: 7%;
+}
+#clientes table{
+    margin:2rem auto;
+}
+#clientes table td{
+    padding:1rem;
+    font-size: 1.4rem;
+}
+#clientes table tr td a{
+    font-style: italic;
+    color:#FF6000;
+}
+#clientes table tr>td:first-child{
+    font-weight: bold;
+    font-style: italic;
+}
+/* inicio */
+#inicio div.noticias img{
+    width: 300px;
+    height: 200px;
+}
+#inicio div.casa img{
+    width: 900px;
+    height: 600px;
+}
+#inicio{
+    text-align: center;
+    margin:auto;
+    width:40%;  
+}
+
+/* inmuebeles */
+
+#inmuebles table{
+    width: 60%;
+    margin:2rem auto;
+}
+#inmuebles table td{
+padding:1rem;
+text-align: center;
+}
+#inmuebles table td img{
+    width:300px;
+    height: 200px;
+}
+select{
+    padding:0.8rem;
+}
+section#resultados{
+    width: 60%;
+    margin:auto;
+}
+section#resultados a.volver{
+    font-size: 1.5rem;
+    margin:1rem 0;
+}
+/* noticias */
+
+#listadonoti table{
+    width: 60%;
+    margin:2rem auto;
+}
+#listadonoti table img{
+    width:300px;
+    height: 200px;
+}
+#listadonoti table td{
+padding:1rem;
+text-align: center;
+}
+#listadonoti div{
+    display: flex;
+    justify-content: space-around;
+    font-size: 100px;
+}
+/* citas */
+
+#listacitas table{
+    width: 60%;
+    margin:2rem auto;
+}
+#listacitas table td{
+padding:1rem;
+}
+div.flechas{
+    display: flex;
+    justify-content: space-around;
+    font-size:50px;
+    padding:2rem;
+    width: 80%;
+    align-items: center;
+    margin:auto;
+}
+div.flechas p{
+    font-size: 30px;
+}
+#buscar table{
+    width: 60%;
+    margin:2rem auto;
+}
+#buscar table td{
+padding:1rem;
+}
+div.citas{
+    text-align: center;
+    font-size: 30px;
+}
+td.rojo{
+    background-color: red;
+}
+td.rojo a{
+    color:white;
+}
+td.verde{
+    background-color: GREEN;
+}
+td.verde a{
+    color:white;
+}
+td.nocitas{
+    text-align: center;
+}
+/* misinmuebles */
+section#misinmuebles{
+    width: 60%;
+    margin: 2rem auto;
+}
+section#misinmuebles td.imagen{
+    text-align: center;
+}
+section#misinmuebles img{
+    width: 60%;
+}
+
+/* inmuebels disponibles */
+section#disponibles{
+    width: 60%;
+    margin: 2rem auto;
+}
+section#disponibles td.foto{
+    text-align: center;
+    width: 50%;
+}
+section#disponibles img{
+    width: 70%;
+}
+
+/* ver mas */
+/* section#vermas{
+    text-align: center;   
+}
+section#vermas div img{
+    width: 75%;
+}
+section#vermas div{
+    width: 80%;
+    margin: auto;
+}
+section#vermas div span{
+    font-size: 3rem;
+    display:block;
+    margin:3rem 0;
+    width: 40%;
+}
+section#vermas div div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section#vermas div p{
+    font-size: 1.5rem;
+    width: 40%;
+} */
+#vermas {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el título del inmueble */
+
+
+/* Estilos para la imagen del inmueble */
+#vermas img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    margin:2rem 0;
+}
+
+/* Estilos para la descripción del inmueble */
+#vermas p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Estilos para el precio del inmueble */
+#vermas span {
+    display: block;
+    font-size: 30px;
+    color: #e44d26; /* Color naranja (puedes cambiarlo según tu preferencia) */
+    font-weight: bold;
+}
+
+/* Estilos para el contenedor general de la información del inmueble */
+#vermas div {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#vermas a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #e44d26; /* Color naranja (puedes cambiarlo según tu preferencia) */
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin:2rem 0;
+    text-align: right;
+    
+}
+
+
+/* //footer */
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer div:first-child {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+}
+
+footer div:nth-child(2) {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+footer div:nth-child(2) p {
+    margin: 1.5rem
+}
+
+footer div:nth-child(2) ul {
+    list-style: none;
+}
+
+footer div:nth-child(2) ul::marker {
+    width: 10%;
+}
+
+footer div:nth-child(2) ul li {
+    font-size: 24px;
+    margin: 1.5rem;
+}
+
+footer a {
+    color: white
+}
+
+footer div:nth-child(3) {
+    background-color: #D9D9D9;
+    text-align: center;
+}
+
+footer div:nth-child(3)>a>img {
+    width: 8%;
+    border-radius: 50px;
+    margin-top: 0.5rem;
+}
+
+footer div:nth-child(3)>div {
+    display: flex;
+}
+
+footer div:nth-child(3)>div {
+    width: 100%;
+    color: black;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+}
+
+footer div:nth-child(3)>div p {
+    font-style: italic;
+    width: 58%;
+}
+
+footer div:nth-child(3)>div span {
+    font-weight: bold;
+}
+
+footer div:nth-child(3)>div>div {
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer div:nth-child(3)>div>div>a>img {
+    width: 50%;
+    padding: 0.5rem;
+}
